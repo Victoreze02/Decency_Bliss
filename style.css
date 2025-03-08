@@ -54,7 +54,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-    background-color: rgb(221, 221, 221)
+    background-color: rgb(168, 163, 163)
 }
 
 .logo {
@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 a:hover{
-    color: var(--accent);
+    color: var(--black);
     
 }
 
@@ -588,6 +588,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     margin-top: 36px;
+    gap: 10px;
 }
 
 .offer-input input {
@@ -595,8 +596,10 @@ a:hover{
     width: 200px;
     height: 50px;
     font-size: 16px;
-    background-color: var(--accent);
+    background-color: #263345;
     border: none;
+    border-radius: 32px;
+    text-align: center;
 }
 
 .offer-input input::placeholder{
@@ -687,6 +690,7 @@ a:hover{
     gap: 20px;
 }
 
+
 .menu-page-item-img{
     width: 536px;
     height: 470px;
@@ -735,11 +739,13 @@ a:hover{
 }
 .menu-crunchychinchin{
     background-image: url("Dec_Img/Crunchy\ chin-chin\ and\ chips1.jpg");
+    
 }
 
 .menu-page-item-price{
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 .menu-page-item-price h4{
     font-size: 40px;
@@ -757,7 +763,493 @@ a:hover{
 
 
 
+/* contact page */
+
+.contact-page{
+    background-color: rgb(212, 211, 211);
+    text-align: center;
+}
+
+.contact-page h1{
+    font-size: 64px;
+}
+
+.contact-page p{
+    font-size: 24px;
+    opacity: 90%;
+}
+
+.contact-information{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    opacity: 70%;
+    margin-top: 10px;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-page form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-page form input, .contact-page form textarea {
+    border: none;
+    border-bottom: solid 1px var(--black);
+    background-color: transparent;
+    font-size: 24px;
+    color: var(--black);
+    width: 864px;
+    height: 70px;
+}
+
+.submit-backup{
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+}
 
 
 
+
+/* navbar responsiveness */
+
+@media (max-width: 958px) {
+    nav{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .checkbtn{
+        display: block;
+        justify-self: end;
+    }
+    label.logo{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        transition: all 0.5s;
+        text-align: center;
+        padding-left: 0px;
+        background-color: var(--accent);
+        z-index: 1;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 30px;
+        color: white;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .no-visibility {
+        display: none;
+    }
+
+}
+
+
+/* Laptop and Tablet  */
+
+@media (max-width: 1024px) and (min-width: 0px) {
+    .hero-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .headlings {
+        align-items: center;
+        text-align: center;
+    }
+    .hero-img img {
+        margin: 50px 0px 0px 60px;
+    }
+
+    .features{
+        width: 680px;
+        margin-top: 150px;
+        gap: 35px;
+    }
+
+    .feature-title h3{
+        font-size: 14px;
+    }
+    .feature p {
+        font-size: 12px;
+    }
+
+    .circle{
+        width: 14px;
+        height: 14px;
+    }
+    .feature span h1 {
+        font-size: 40px;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-content{
+        margin: 50px 0px 0px 0px;
+    }
+    .about-img{
+        margin-top: 10px;
+    }
+    .callout h1{
+        font-size: 24px;
+    }
+    .callout p{
+        font-size: 18px;
+        width: 650px;
+    }
+    .menu{
+        height: 1700px;
+        align-items: center;
+        justify-content: start;
+    }
+    .menu-items{
+        flex-direction: column;
+        width: 760px;
+    }
+    .shawarma{
+        width: 760px;
+    }
+    
+    .cupcakes{
+        width: 760px;
+    }
+    .cakes{
+        width: 760px;
+    }
+    .meatpie{
+        width: 760px;
+    }
+    .smallchops{
+        width: 760px;
+    }
+    .peppermeat{
+        width: 760px;
+    }
+    .cookies{
+        width: 760px;
+    }
+    .doughnut{
+        width: 760px;
+    }
+    .burger{
+        width: 760px;
+    }
+    .cuppies{
+        width: 760px;
+    }
+    .plaincakes{
+        width: 760px;
+    }
+    .freshbread{
+        width: 760px;
+    }
+    .crunchychinchin{
+        width: 760px;
+    }
+
+    .testimonials{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .testimony{
+        height: 250px;
+        width: 650px;
+    }
+    .menu-page-item{
+        flex-direction: column;
+    }
+    .column-reverse{
+        flex-direction: column-reverse;
+    }
+    .contact-page h1{
+        font-size: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .contact-page p{
+        font-size: 16px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .contact-page form input, 
+    .contact-page form textarea{
+        font-size: 24px;
+        width: 650px;
+    }
+    
+}
+
+
+/* Phone  */
+@media (max-width: 426px) {
+    .hero-page {
+        height: 1200px;
+    }
+    .hero-container{
+        margin-top: 0px;
+    }
+    .headlines h1{
+        font-size: 16px;
+        text-wrap: wrap;
+        width: 250px;
+    }
+
+    .headlines p{
+        font-size: 16px;
+        text-wrap: wrap;
+        margin-top: 10px;
+        width: 250px;
+    }
+    .btn-red{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .hero-img {
+        width: 230px;
+        height: 140px;
+    }
+    .hero-img img {
+        width: 200px;
+        margin: 30px 0px 0px 0px;
+        padding-left: 20px;
+    }
+   .features{
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    margin-top: 100px;
+   } 
+   .about {
+    height: 1050px;
+    justify-content: start;
+    gap: 10px;
+   }
+   .about h1 {
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+   }
+   .about p {
+    width: 280px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .about-boxes {
+    margin-top: 15px;
+    align-items: center;
+   }
+   .about-box{
+    width: 280px;
+    flex-direction: column;
+   }
+   .box-description{
+    width: 250px;
+    text-align: center;
+   }
+
+   .box-description h4 {
+    font-size: 16px;
+    width: 250px;
+   }
+   .box-description span {
+    font-size: 8px;
+    width: 240px;
+   }
+   .about-img img {
+    width: 300px;
+    height: 300px;
+}
+    .about-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .callout {
+        margin-top: 10px;
+        width: 100%;
+        height: 300px;
+    }
+    .callout h1 {
+        width: 280px;
+        font-size: 20px;
+    }
+    .callout p{
+        width: 280px;
+        font-size: 10px;
+    }
+
+    .menu {
+        height: 1000px; 
+    }
+    .menu-title h1 {
+        font-size: 24px;
+    }
+    .menu-items{
+        width: 300px;
+    }
+    .menu-column {
+        width: 300px;
+    }
+   .shawarma,
+.cupcakes,
+.cakes,
+.meatpie,
+.smallchops,
+.peppermeat,
+.cookies,
+.doughnut,
+.burger,
+.cuppies,
+.plaincakes,
+.freshbread,
+.crunchychinchin{
+    width: 300px;
+    height: 200px;
+   } 
+
+   .menu-item-title{
+    width: 200px;
+    margin: 10px 0px 0px 30px;
+    font-size: 16px;
+   }
+
+   .testimony{
+    width: 280px;
+    height: 280px;
+   }
+
+   .testimony p{
+    width: 250px;
+    font-size: 12px;
+   }
+   .testimony-people{
+    gap: 12px;
+   }
+   .testimony-circle{
+    height: 24px;
+    width: 24px;
+   }
+   .testimony-people span {
+    font-size: 12px;
+   }
+
+   .offers{
+    margin-top: 10px;
+    height: 250px;
+   }
+   .offers h1 {
+    font-size: 12px;
+    width: 250px;
+   }
+   .offers p {
+    width: 250px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 70%;
+   }
+   .offers-input {
+    flex-direction: column;
+    align-items: start;
+    width: 250px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    height: 80px;
+    margin-top: 20px;
+   }
+   .offer-input button {
+    width: 220px;
+   }
+   .bot-footer{
+    padding: 20px;
+   }
+   .menu-page-item {
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-page-item-headline {
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-page-item-img {
+    width: 300px;
+    height: 300px;
+   }
+   .menu-page-item-price{
+    flex-direction: column;
+   }
+   .menu-page-item-price span {
+    font-size: 24px;
+    opacity: 70%;
+   }
+
+   .menu-page-item-headline p{
+    width: 250px;
+    font-size: 16px;
+   }
+
+   .reverse-size {
+    width: 250px;
+   }
+   .contact-page h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .contact-page p {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .contact-page form input,
+   .contact-page form textarea {
+    font-size: 16px;
+    width: 280px;
+    height: 30px;
+   }
+
+   .contact-information {
+    align-items: start;
+    flex-direction: column;
+    margin-left: 30px;
+   }
+
+
+
+}
 

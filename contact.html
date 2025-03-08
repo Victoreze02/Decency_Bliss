@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Use for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="Dec_Img/Dec9.jpg"/>
+    <!-- link the css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link the icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- For the font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+    
+    <title>Decency Bliss</title>
+</head>
+<body>
+    <section class="contact-page">
+        <!-- navbar  -->
+        <nav>
+            <input type="checkbox" name="" id="check">
+            <label class="logo"><a href="index.html" onclick="uncheckCheckbox()" style="text-decoration: none;">Decency Bliss</a></label>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul>
+                <li><a href="index.html" onclick="uncheckCheckbox()">Home</a></li>
+                <li><a href="index.html#about" onclick="uncheckCheckbox()">About</a></li>
+                <li><a href="menu.html" onclick="uncheckCheckbox()">Menu</a></li>
+                <li><a href="index.html#offers" onclick="uncheckCheckbox()">Offers</a></li>
+                <li><a href="contact.html" onclick="uncheckCheckbox()">Contact</a></li>
+            
+            </ul>
+
+            <a href="https://wa.me/message/YI63MGGPC5GQF1"  target="_blank"
+            class="btn-1 no-visibility"
+           style="margin-right: 60px;"
+            >    
+                <p>Order Now</p>
+            </a>
+        </nav>
+    
+        <!-- navbar End -->
+
+        <h1>We want to hear from you!</h1>
+        <p>Feel free to reach out to us with any questions, concerns or feedback.
+           Our dedicated team is here to assist you.
+        </p>
+
+        <div class="contact-information">
+            <div class="stats">
+                <i class="fa-soild fa-phone fa-lg"></i>
+                <span>+2348067426044</span>
+            </div>
+
+            <div class="stats">
+                <i class="fa-soild fa-house fa-lg"></i>
+                <span>Jos North/Karu LGA Nasarawa State/Abuja-Nigeria</span>
+            </div>
+
+            <div class="stats">
+                <i class="fa-soild fa-envelope fa-lg"></i>
+                <span>onyekaadachi@gmail.com</span>
+            </div>
+        </div>
+
+        <form 
+        action="mailto:onyekaadachi@gmail.com"
+        method="post"
+        enctype="text/plain"
+        id="emailForm"
+        >
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="number" name="number" placeholder="Contact No." required>
+    <input type="email" name="email" placeholder="Email"  id="recipient" required>
+
+    <textarea name="description" id="message" cols="30" rows="10" placeholder="What do you have in mind..."></textarea>
+
+   <button class="btn-1" type="submit"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=onyekaadachi@gmail.com" 
+    target="_blank" style="color: white; text-decoration: none;" >Submit</a></button>
+
+
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=onyekaadachi@gmail.com" 
+    target="_blank"
+    class="submit-backup">Compose an email here</a>
+
+    </section>
+
+    
+    <!-- Footer  -->
+    <div class="footer">
+        <div class="offers" id="offers" style="margin-top: 0px">
+            <h1>Get Discounts & Offers straight to your inbox</h1>
+            <p>Sign up for Decency Bliss Newsletter.</p>
+            <div class="offer-input">
+                <input type="text" placeholder="Enter Email Address">
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bot-footer">
+        <a href="index.html">
+            <h1>Decency Bliss</h1>
+        </a>
+
+        <div class="socials">
+            <a href="https://www.facebook.com/divinemiracle.julietokoli" target="_blank">
+                <i class="fa-brands fa-square-facebook fa-2xl" style="color: black"></i>
+            </a>
+
+            <a href="
+            https://wa.me/message/YI63MGGPC5GQF1" target="_blank">
+                <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: black"></i>
+            </a>
+
+            <a href="https://www.youtube.com/@DecencyJuliet" target="_blank">
+                <i class="fa-brands fa-square-youtube fa-2xl" style="color: black"></i>
+            </a>
+
+            <a href="https://www.instagram.com/decency_juliet_/" target="_blank">
+                <i class="fa-brands fa-square-instagram fa-2xl" style="color: black"></i>
+            </a>
+
+
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=onyekaadachi@gmail.com" target="_blank">
+                <i class="fa fa-envelope fa-2xl" style="color: black"></i>
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
