@@ -873,9 +873,87 @@ a:hover{
 }
 
 
+/* Responsive Navbar */
+@media (max-width: 1300px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: var(--accent);
+        width: 100%;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+/* General responsiveness */
+@media (max-width: 1300px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-page h1 {
+        font-size: 24px;
+    }
+    .hero-page p {
+        font-size: 16px;
+    }
+    
+    .menu-items {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-item {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .testimony {
+        width: 90%;
+        max-width: 400px;
+        text-align: center;
+    }
+    
+    .contact-information {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-page form input, .contact-page form textarea {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+
+
 /* Laptop and Tablet  */
 
-@media (max-width: 1024px) and (min-width: 0px) {
+/* @media (max-width: 1758px) and (min-width: 0px) {
     .hero-container{
         flex-direction: column;
         align-items: center;
@@ -1009,11 +1087,11 @@ a:hover{
         width: 650px;
     }
     
-}
+} */
 
 
 /* Phone  */
-@media (max-width: 426px) {
+/* @media (max-width: 360px){
     .hero-page {
         height: 1200px;
     }
@@ -1252,12 +1330,12 @@ a:hover{
 
 
 }
+ */
 
 
 
-
-/* small phones */
-@media (max-width: 360px){
+ /* small phones */
+/* @media (max-width: 400px), (max-width:1758px){
     .hero-page {
         height: 1200px;
     }
@@ -1495,10 +1573,10 @@ a:hover{
 
 
 
-}
+}  */
 
 /* for smartphones  */
-@media (max-width: 480px)  {
+ /* @media (max-width: 480px)  {
     .hero-page {
         height: 1200px;
     }
@@ -1736,10 +1814,10 @@ a:hover{
 
 
 
-}
+}  */
 
 /* for tablets and larger screens  */
-@media (min-width:768px) {
+/* @media (min-width:768px) {
     .hero-page {
         height: 1200px;
     }
@@ -1977,4 +2055,4 @@ a:hover{
 
 
 
-}
+} */
