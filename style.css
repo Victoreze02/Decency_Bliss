@@ -1253,3 +1253,728 @@ a:hover{
 
 }
 
+
+
+
+/* small phones */
+@media (max-width: 360px){
+    .hero-page {
+        height: 1200px;
+    }
+    .hero-container{
+        margin-top: 0px;
+    }
+    .headlines h1{
+        font-size: 16px;
+        text-wrap: wrap;
+        width: 250px;
+    }
+
+    .headlines p{
+        font-size: 16px;
+        text-wrap: wrap;
+        margin-top: 10px;
+        width: 250px;
+    }
+    .btn-red{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .hero-img {
+        width: 230px;
+        height: 140px;
+    }
+    .hero-img img {
+        width: 200px;
+        margin: 30px 0px 0px 0px;
+        padding-left: 20px;
+    }
+   .features{
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    margin-top: 100px;
+   } 
+   .about {
+    height: 1050px;
+    justify-content: start;
+    gap: 10px;
+   }
+   .about h1 {
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+   }
+   .about p {
+    width: 280px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .about-boxes {
+    margin-top: 15px;
+    align-items: center;
+   }
+   .about-box{
+    width: 280px;
+    flex-direction: column;
+   }
+   .box-description{
+    width: 250px;
+    text-align: center;
+   }
+
+   .box-description h4 {
+    font-size: 16px;
+    width: 250px;
+   }
+   .box-description span {
+    font-size: 8px;
+    width: 240px;
+   }
+   .about-img img {
+    width: 300px;
+    height: 300px;
+}
+    .about-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .callout {
+        margin-top: 10px;
+        width: 100%;
+        height: 300px;
+    }
+    .callout h1 {
+        width: 280px;
+        font-size: 20px;
+    }
+    .callout p{
+        width: 280px;
+        font-size: 10px;
+    }
+
+    .menu {
+        height: 1000px; 
+    }
+    .menu-title h1 {
+        font-size: 24px;
+    }
+    .menu-items{
+        width: 300px;
+    }
+    .menu-column {
+        width: 300px;
+    }
+   .shawarma,
+.cupcakes,
+.cakes,
+.meatpie,
+.smallchops,
+.peppermeat,
+.cookies,
+.doughnut,
+.burger,
+.cuppies,
+.plaincakes,
+.freshbread,
+.crunchychinchin{
+    width: 300px;
+    height: 200px;
+   } 
+
+   .menu-item-title{
+    width: 200px;
+    margin: 10px 0px 0px 30px;
+    font-size: 16px;
+   }
+
+   .testimony{
+    width: 280px;
+    height: 280px;
+   }
+
+   .testimony p{
+    width: 250px;
+    font-size: 12px;
+   }
+   .testimony-people{
+    gap: 12px;
+   }
+   .testimony-circle{
+    height: 24px;
+    width: 24px;
+   }
+   .testimony-people span {
+    font-size: 12px;
+   }
+
+   .offers{
+    margin-top: 10px;
+    height: 250px;
+   }
+   .offers h1 {
+    font-size: 12px;
+    width: 250px;
+   }
+   .offers p {
+    width: 250px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 70%;
+   }
+   .offers-input {
+    flex-direction: column;
+    align-items: start;
+    width: 250px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    height: 80px;
+    margin-top: 20px;
+   }
+   .offer-input button {
+    width: 220px;
+   }
+   .bot-footer{
+    padding: 20px;
+   }
+   .menu-page-item {
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-page-item-headline {
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-page-item-img {
+    width: 300px;
+    height: 300px;
+   }
+   .menu-page-item-price{
+    flex-direction: column;
+   }
+   .menu-page-item-price span {
+    font-size: 24px;
+    opacity: 70%;
+   }
+
+   .menu-page-item-headline p{
+    width: 250px;
+    font-size: 16px;
+   }
+
+   .reverse-size {
+    width: 250px;
+   }
+   .contact-page h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .contact-page p {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .contact-page form input,
+   .contact-page form textarea {
+    font-size: 16px;
+    width: 280px;
+    height: 30px;
+   }
+
+   .contact-information {
+    align-items: start;
+    flex-direction: column;
+    margin-left: 30px;
+   }
+
+
+
+}
+
+/* for smartphones  */
+@media (max-width: 480px)  {
+    .hero-page {
+        height: 1200px;
+    }
+    .hero-container{
+        margin-top: 0px;
+    }
+    .headlines h1{
+        font-size: 16px;
+        text-wrap: wrap;
+        width: 250px;
+    }
+
+    .headlines p{
+        font-size: 16px;
+        text-wrap: wrap;
+        margin-top: 10px;
+        width: 250px;
+    }
+    .btn-red{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .hero-img {
+        width: 230px;
+        height: 140px;
+    }
+    .hero-img img {
+        width: 200px;
+        margin: 30px 0px 0px 0px;
+        padding-left: 20px;
+    }
+   .features{
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    margin-top: 100px;
+   } 
+   .about {
+    height: 1050px;
+    justify-content: start;
+    gap: 10px;
+   }
+   .about h1 {
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+   }
+   .about p {
+    width: 280px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .about-boxes {
+    margin-top: 15px;
+    align-items: center;
+   }
+   .about-box{
+    width: 280px;
+    flex-direction: column;
+   }
+   .box-description{
+    width: 250px;
+    text-align: center;
+   }
+
+   .box-description h4 {
+    font-size: 16px;
+    width: 250px;
+   }
+   .box-description span {
+    font-size: 8px;
+    width: 240px;
+   }
+   .about-img img {
+    width: 300px;
+    height: 300px;
+}
+    .about-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .callout {
+        margin-top: 10px;
+        width: 100%;
+        height: 300px;
+    }
+    .callout h1 {
+        width: 280px;
+        font-size: 20px;
+    }
+    .callout p{
+        width: 280px;
+        font-size: 10px;
+    }
+
+    .menu {
+        height: 1000px; 
+    }
+    .menu-title h1 {
+        font-size: 24px;
+    }
+    .menu-items{
+        width: 300px;
+    }
+    .menu-column {
+        width: 300px;
+    }
+   .shawarma,
+.cupcakes,
+.cakes,
+.meatpie,
+.smallchops,
+.peppermeat,
+.cookies,
+.doughnut,
+.burger,
+.cuppies,
+.plaincakes,
+.freshbread,
+.crunchychinchin{
+    width: 300px;
+    height: 200px;
+   } 
+
+   .menu-item-title{
+    width: 200px;
+    margin: 10px 0px 0px 30px;
+    font-size: 16px;
+   }
+
+   .testimony{
+    width: 280px;
+    height: 280px;
+   }
+
+   .testimony p{
+    width: 250px;
+    font-size: 12px;
+   }
+   .testimony-people{
+    gap: 12px;
+   }
+   .testimony-circle{
+    height: 24px;
+    width: 24px;
+   }
+   .testimony-people span {
+    font-size: 12px;
+   }
+
+   .offers{
+    margin-top: 10px;
+    height: 250px;
+   }
+   .offers h1 {
+    font-size: 12px;
+    width: 250px;
+   }
+   .offers p {
+    width: 250px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 70%;
+   }
+   .offers-input {
+    flex-direction: column;
+    align-items: start;
+    width: 250px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    height: 80px;
+    margin-top: 20px;
+   }
+   .offer-input button {
+    width: 220px;
+   }
+   .bot-footer{
+    padding: 20px;
+   }
+   .menu-page-item {
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-page-item-headline {
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-page-item-img {
+    width: 300px;
+    height: 300px;
+   }
+   .menu-page-item-price{
+    flex-direction: column;
+   }
+   .menu-page-item-price span {
+    font-size: 24px;
+    opacity: 70%;
+   }
+
+   .menu-page-item-headline p{
+    width: 250px;
+    font-size: 16px;
+   }
+
+   .reverse-size {
+    width: 250px;
+   }
+   .contact-page h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .contact-page p {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .contact-page form input,
+   .contact-page form textarea {
+    font-size: 16px;
+    width: 280px;
+    height: 30px;
+   }
+
+   .contact-information {
+    align-items: start;
+    flex-direction: column;
+    margin-left: 30px;
+   }
+
+
+
+}
+
+/* for tablets and larger screens  */
+@media (min-width:768px) {
+    .hero-page {
+        height: 1200px;
+    }
+    .hero-container{
+        margin-top: 0px;
+    }
+    .headlines h1{
+        font-size: 16px;
+        text-wrap: wrap;
+        width: 250px;
+    }
+
+    .headlines p{
+        font-size: 16px;
+        text-wrap: wrap;
+        margin-top: 10px;
+        width: 250px;
+    }
+    .btn-red{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .hero-img {
+        width: 230px;
+        height: 140px;
+    }
+    .hero-img img {
+        width: 200px;
+        margin: 30px 0px 0px 0px;
+        padding-left: 20px;
+    }
+   .features{
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    margin-top: 100px;
+   } 
+   .about {
+    height: 1050px;
+    justify-content: start;
+    gap: 10px;
+   }
+   .about h1 {
+    width: 300px;
+    font-size: 24px;
+    text-align: center;
+   }
+   .about p {
+    width: 280px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .about-boxes {
+    margin-top: 15px;
+    align-items: center;
+   }
+   .about-box{
+    width: 280px;
+    flex-direction: column;
+   }
+   .box-description{
+    width: 250px;
+    text-align: center;
+   }
+
+   .box-description h4 {
+    font-size: 16px;
+    width: 250px;
+   }
+   .box-description span {
+    font-size: 8px;
+    width: 240px;
+   }
+   .about-img img {
+    width: 300px;
+    height: 300px;
+}
+    .about-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .callout {
+        margin-top: 10px;
+        width: 100%;
+        height: 300px;
+    }
+    .callout h1 {
+        width: 280px;
+        font-size: 20px;
+    }
+    .callout p{
+        width: 280px;
+        font-size: 10px;
+    }
+
+    .menu {
+        height: 1000px; 
+    }
+    .menu-title h1 {
+        font-size: 24px;
+    }
+    .menu-items{
+        width: 300px;
+    }
+    .menu-column {
+        width: 300px;
+    }
+   .shawarma,
+.cupcakes,
+.cakes,
+.meatpie,
+.smallchops,
+.peppermeat,
+.cookies,
+.doughnut,
+.burger,
+.cuppies,
+.plaincakes,
+.freshbread,
+.crunchychinchin{
+    width: 300px;
+    height: 200px;
+   } 
+
+   .menu-item-title{
+    width: 200px;
+    margin: 10px 0px 0px 30px;
+    font-size: 16px;
+   }
+
+   .testimony{
+    width: 280px;
+    height: 280px;
+   }
+
+   .testimony p{
+    width: 250px;
+    font-size: 12px;
+   }
+   .testimony-people{
+    gap: 12px;
+   }
+   .testimony-circle{
+    height: 24px;
+    width: 24px;
+   }
+   .testimony-people span {
+    font-size: 12px;
+   }
+
+   .offers{
+    margin-top: 10px;
+    height: 250px;
+   }
+   .offers h1 {
+    font-size: 12px;
+    width: 250px;
+   }
+   .offers p {
+    width: 250px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 70%;
+   }
+   .offers-input {
+    flex-direction: column;
+    align-items: start;
+    width: 250px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    height: 80px;
+    margin-top: 20px;
+   }
+   .offer-input button {
+    width: 220px;
+   }
+   .bot-footer{
+    padding: 20px;
+   }
+   .menu-page-item {
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-page-item-headline {
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-page-item-img {
+    width: 300px;
+    height: 300px;
+   }
+   .menu-page-item-price{
+    flex-direction: column;
+   }
+   .menu-page-item-price span {
+    font-size: 24px;
+    opacity: 70%;
+   }
+
+   .menu-page-item-headline p{
+    width: 250px;
+    font-size: 16px;
+   }
+
+   .reverse-size {
+    width: 250px;
+   }
+   .contact-page h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .contact-page p {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .contact-page form input,
+   .contact-page form textarea {
+    font-size: 16px;
+    width: 280px;
+    height: 30px;
+   }
+
+   .contact-information {
+    align-items: start;
+    flex-direction: column;
+    margin-left: 30px;
+   }
+
+
+
+}
