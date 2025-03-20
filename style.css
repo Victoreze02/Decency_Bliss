@@ -11,10 +11,11 @@
 } */
 
 *{
-  margin: 0;  
-  font-family: "signika", sans-serif;
-  scroll-behavior: smooth;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika", sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -25,6 +26,7 @@
 
 body{
     color: var(--black);
+    overflow-x: hidden;
 }
 
 /* Navbar  */
@@ -142,6 +144,7 @@ a:hover{
     margin-top: 40px;
     color: var(--black);
 }
+
 
 .headlines{
     display: flex;
